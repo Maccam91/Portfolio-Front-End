@@ -1,0 +1,38 @@
+.a {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.164);
+    border-radius: 25px;
+    position: relative;
+}
+.a-card-bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aquamarine;
+}
+.a-card {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    position: relative;
+
+}
+.a-left {
+    flex: 1;
+}
+.a-img {
+    position: absolute;
+    /* left: 40px;
+    top: 35px; */
+    width: 40vw;
+    height: 40vh;
+    border-radius: 5px;
+}
+.a-right {
+    flex: 1;
+}
