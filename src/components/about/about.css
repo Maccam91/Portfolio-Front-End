@@ -18,7 +18,7 @@
     width: 21vw;
     height: 40vh;
     border-radius: 40px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     position: relative;
     display: flex;
     justify-content: center;
@@ -47,9 +47,9 @@
 }
 .a-link {
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
-    color: rgb(235, 0, 0);
+    color: rgb(235, 0, 157);
 }
 .a-skills {
     height: 3rem;
@@ -58,6 +58,7 @@
 .skills-bold {
     font-size: 1.25rem;
     color: rgb(204, 74, 255);
+    font-weight: 600;
     
 }
 .a-skills-wrapper {

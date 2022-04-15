@@ -5,11 +5,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
 .pl-texts {
     width: 65%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.178); */
     border-radius: 25px;
 }
 .pl-title {
