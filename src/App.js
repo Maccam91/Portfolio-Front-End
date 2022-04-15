@@ -1,5 +1,4 @@
 import './App.css';
-import {Routes, Route, Link} from 'react-router-dom'
 import Intro from './components/intro/intro';
 import About from './components/about/about'
 import ProductList from './components/productList/productList';

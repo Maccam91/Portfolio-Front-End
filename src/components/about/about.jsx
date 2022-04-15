@@ -1,5 +1,4 @@
 import "./about.css"
-import Logo from "../img/mcdev3.svg"
 import Me from "../img/mes.png"
 
 const About = () => {
