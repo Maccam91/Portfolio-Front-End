@@ -1,6 +1,8 @@
 import "./contact.css"
 import Email from "../img/newemail.svg"
 import Resume from "../img/resume.svg"
+import Git from "../img/github.svg"
+import LinkedIn from "../img/linkedin.svg"
 import MyResume from "../data/portresume.pdf"
 import { useRef, useState } from "react"
 import emailjs from "emailjs-com"
@@ -41,6 +43,22 @@ const Contact = () => {
                         className="c-icon"
                         />
                         michael.cortezjr@gmail.com
+                    </div>
+                    <div className="c-info-item">
+                       <a href="https://github.com/Maccam91"><img
+                        src={Git}
+                        alt=""
+                        className="c-icon"
+                        />
+                        </a>Github Profile
+                    </div>
+                    <div className="c-info-item">
+                       <a href="https://www.linkedin.com/in/mcortezdev/"><img
+                        src={LinkedIn}
+                        alt=""
+                        className="c-icon"
+                        />
+                        </a>LinkedIn
                     </div>
                 </div>
                 <div className="c-right">

@@ -6,7 +6,7 @@ const Intro = () => {
             
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello World My name is</h2>
+                    <h2 className="i-intro">Hello World My Name Is</h2>
                     <h2 className="i-name">Michael Cortez</h2>
                     <div className="i-title">
                     <div className="i-title-wrapper">
@@ -14,7 +14,7 @@ const Intro = () => {
                         <div className="i-title-item">Active Learner</div>
                         <div className="i-title-item">Graphic Designer</div>
                         <div className="i-title-item">Table Top Gamer</div>
-                        <div className="i-title-item">Cat & Dog dad</div>
+                        <div className="i-title-item">Cat & Dog Dad</div>
                     </div>
                     </div>
                     <div className="i-desc">
