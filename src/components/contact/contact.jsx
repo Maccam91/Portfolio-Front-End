@@ -6,9 +6,7 @@ import { useRef, useState } from "react"
 import emailjs from "emailjs-com"
 
 const Contact = () => {
-    const resumeClick = (e) => {
-        
-    }
+    
     const formRef =useRef()
     const [done, setDone] = useState(false)
     const handleSubmit = (e) => {
