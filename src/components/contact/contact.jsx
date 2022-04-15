@@ -1,6 +1,6 @@
 import "./contact.css"
-import Phone from "../img/phone.svg"
-import Email from "../img/email.svg"
+import Email from "../img/newemail.svg"
+import Resume from "../img/resume.svg"
 
 const Contact = () => {
     return (
@@ -8,23 +8,28 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title"> Let's talk about your project or just chat</h1>
+                    <h1 className="c-title"> Contact Info</h1>
                     <div className="c-info-item">
                         <img
-                        src={Phone}
+                        src={Resume}
                         alt=""
                         className="c-icon"
-                        ></img>
+                        />Resume
                     </div>
                     <div className="c-info-item">
                         <img
                         src={Email}
                         alt=""
                         className="c-icon"
-                        ></img>
+                        />
+                        michael.cortezjr@gmail.com
                     </div>
                 </div>
-                <div className="c-rightt"></div>
+                <div className="c-right">
+                    <div className="c-right-desc">
+                    Let's talk about your project or just chat. I am always up for the challenge and willing to learn or listen.
+                    </div>
+                </div>
             </div>
         </div>
     )
