@@ -42,11 +42,17 @@
         padding: 10px;
       }
     
-      .pl-texts {
+    .pl-texts {
         width: 100%;
       }
     
-      .pl-desc {
+    .pl-desc {
         display: none;
       }
+    .pl-list {
+        display: flex;
+        justify-content: center;
+    }
+
+
 }

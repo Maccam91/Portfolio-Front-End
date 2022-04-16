@@ -70,7 +70,7 @@ const Contact = () => {
                         <input type="text" placeholder="Subject" name="user_subject"/>
                         <input type="text" placeholder="Your Email" name="user_email"/>
                         <textarea rows="5" placeholder="Message" name="message"/>
-                        <button>Submit</button>
+                        <button>Send</button>
                         <br/><br/><div className="e-sent">{done && "Thank you I will get in touch with you as soon as I can."}</div>
                     </form>
                 </div>
