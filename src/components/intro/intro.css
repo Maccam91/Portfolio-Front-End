@@ -48,10 +48,10 @@ position: relative;
 
 .i-title-wrapper{
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: mymove 10s ease-in-out infinite alternate;
     
 }
-@keyframes move {
+@keyframes mymove {
     25%{
         transform: translateY(-50px);
     }
